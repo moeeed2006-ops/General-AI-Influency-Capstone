@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abdul Moeed | AI & Software Engineering Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans antialiased min-h-screen flex flex-col justify-between">
+
+  <!-- Header / Hero Section -->
+  <header class="max-w-4xl mx-auto px-6 pt-16 pb-12 text-center">
+    <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight text-white mb-4">
+      Abdul Moeed
+    </h1>
+    <p class="text-lg text-slate-400 max-w-2xl mx-auto">
+      AI Engineering Student specializing in RAG Architecture, Machine Learning Systems, and Linux Environment Administration.
+    </p>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-4xl mx-auto px-6 space-y-12 flex-grow">
+
+    <!-- About Section -->
+    <section class="bg-slate-800/60 border border-slate-700/50 rounded-2xl p-6 sm:p-8">
+      <h2 class="text-2xl font-bold text-white mb-4">About Me</h2>
+      <p class="text-slate-300 leading-relaxed mb-4">
+        I build practical intelligent systems, custom RAG architecture, vector database pipelines, and content optimization models.
+      </p>
+      <div class="flex flex-wrap gap-2 pt-2">
+        <span class="px-3 py-1 bg-sky-500/10 text-sky-400 border border-sky-500/20 rounded-full text-xs font-semibold">Python</span>
+        <span class="px-3 py-1 bg-sky-500/10 text-sky-400 border border-sky-500/20 rounded-full text-xs font-semibold">Pinecone / RAG</span>
+        <span class="px-3 py-1 bg-sky-500/10 text-sky-400 border border-sky-500/20 rounded-full text-xs font-semibold">DuckDB / scikit-learn</span>
+        <span class="px-3 py-1 bg-sky-500/10 text-sky-400 border border-sky-500/20 rounded-full text-xs font-semibold">n8n Automation</span>
+        <span class="px-3 py-1 bg-sky-500/10 text-sky-400 border border-sky-500/20 rounded-full text-xs font-semibold">Linux Systems</span>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section>
+      <h2 class="text-2xl font-bold text-white mb-6">Featured Projects</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+
+        <!-- Project 1 -->
+        <div class="bg-slate-800/60 border border-slate-700/50 rounded-2xl p-6 flex flex-col justify-between">
+          <div>
+            <h3 class="text-xl font-bold text-white mb-2">Automated RAG Study Pipeline</h3>
+            <p class="text-slate-400 text-sm mb-4">
+              An automated workflow built with n8n and Pinecone vector store to process raw lecture materials and generate optimized retrieval-augmented study guides.
+            </p>
+          </div>
+          <span class="text-xs text-sky-400 font-mono">n8n · Pinecone · Vector Search</span>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="bg-slate-800/60 border border-slate-700/50 rounded-2xl p-6 flex flex-col justify-between">
+          <div>
+            <h3 class="text-xl font-bold text-white mb-2">ML Content Optimization Engine</h3>
+            <p class="text-slate-400 text-sm mb-4">
+              Content refresh optimization system leveraging DuckDB for analytical query processing and scikit-learn for predictive performance modeling.
+            </p>
+          </div>
+          <span class="text-xs text-sky-400 font-mono">DuckDB · scikit-learn · Python</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- AI Assistant Prompt Banner -->
+    <section class="bg-gradient-to-r from-sky-900/40 to-slate-800 border border-sky-500/30 rounded-2xl p-6 text-center">
+      <h3 class="text-lg font-semibold text-white mb-1">Have questions about my work?</h3>
+      <p class="text-sm text-slate-300">
+        Click the chat widget in the bottom-right corner to interact with my personal AI agent.
+      </p>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="max-w-4xl mx-auto px-6 py-8 text-center text-slate-500 text-sm mt-12 border-t border-slate-800">
+    <p>© 2026 Abdul Moeed. Built for General AI Fluency Capstone (FL).</p>
+  </footer>
+
+  <!-- PASTE YOUR CHATBASE SCRIPT RIGHT HERE -->
+  <script>
+(function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="iioDqn483qlmoH5D8NsW8";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+</script>
+
+</body>
+</html>
